@@ -67,11 +67,17 @@ struct point_p *cart_to_polar(const struct point_c *c, struct point_p *p)
 
 void debug_print_cart(const char *msg, const struct point_c *c)
 {
+	(void)(msg);
+	(void)(c);
+
 	debug("%scart:   x = %f, y = %f\n", msg, c->x, c->y);
 }
 
 void debug_print_polar(const char *msg, const struct point_p *p)
 {
+	(void)(msg);
+	(void)(p);
+
 	debug("%spolar: r = %f, t = %f\n", msg, p->r, p->t);
 }
 

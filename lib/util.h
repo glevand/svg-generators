@@ -11,6 +11,7 @@ const char *eat_front_ws(const char *p);
 void eat_tail_ws(char *p);
 
 unsigned int to_unsigned(const char *str);
+int to_signed(const char *str);
 float to_float(const char *str);
 
 int random_int(int min, int max);
