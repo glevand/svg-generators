@@ -257,6 +257,8 @@ static void write_flag(FILE* out_stream, float height)
 	struct svg_rect sr;
 	unsigned int i;
 
+	(void)(flag_id);
+
 	flag_dimensions_fill(&fd, height);
 
 	debug("%s\n", flag_id);
