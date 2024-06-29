@@ -14,6 +14,22 @@ Generates SVG file of camouflage blobs.
 
 ![monochrome](samples/monochrome-arm.svg)
 
+#### With the following parameters:
+```
+blob-generator \
+ --node-count-min 8 \
+ --node-count-max 16 \
+ --radius-min 18 \
+ --radius-max 70 \
+ --sector_min 20 \
+ --grid-columns 180 \
+ --grid-rows 180 \
+ --grid-width 60 \
+ --grid-wiggle 56
+```
+
+![monochrome](samples/monochrome-full-page.svg)
+
 ## star-generator
 
 Generates SVG file of stars.
